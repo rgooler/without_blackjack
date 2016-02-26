@@ -10,7 +10,7 @@ python:
 # command to install dependencies
 install: "pip install -r withoutbj/requirements.txt"
 # command to run tests
-script: setup.py test
+script: ./setup.py test
 
 sudo: false
 cache: pip
