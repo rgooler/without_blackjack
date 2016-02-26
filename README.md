@@ -1,8 +1,8 @@
-skeleton_flask
+without_blackjack
 ==============
-[![Build Status](https://travis-ci.org/rgooler/skeleton_flask.svg?branch=master)](https://travis-ci.org/rgooler/skeleton_flask)
+[![Build Status](https://travis-ci.org/rgooler/without_blackjack.svg?branch=master)](https://travis-ci.org/rgooler/without_blackjack)
 
-A quick skeleton for building production-ready flask apps. Uses docker for prod or testing releases. 
+My attempt to build a stripped down secondlife client for text chat across platforms
 
 Run locally
 -----------
