@@ -6,14 +6,13 @@ My attempt to build a stripped down secondlife client for text chat across platf
 
 Run locally
 -----------
-    ./setup.sh
-    ./debug.py
+    virtualenv virtualenv
+    ./setup.py build
 
 
 Run Unit Tests
 --------------
-    ./setup.sh
-    ./tests.py
+    ./setup.py test
 
 
 Run in Docker

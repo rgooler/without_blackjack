@@ -1,6 +1,12 @@
 #!virtualenv/bin/python
 import os
 from setuptools import setup
+from pip.req import parse_requirements
+from pip.download import PipSession
+
+
+install_reqs = parse_requirements("withoutbj/requirements.txt",
+                                  session=PipSession())
 
 
 # Utility function to read the README file.
@@ -23,6 +29,7 @@ setup(
     long_description=read('README.md'),
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
+    install_requires=[str(ir.req) for ir in install_reqs],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
